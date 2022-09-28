@@ -1,0 +1,165 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  align-content: center;
+  flex-direction: row;
+}
+.logo {
+  width: 60px;
+  height: 60px;
+}
+.header--head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: auto;
+}
+
+.header--sidebar {
+  display: flex;
+  align-items: center;
+  margin-right: 10%;
+}
+#mg {
+  color: azure;
+  font-size: large;
+  margin-left: 5px;
+}
+#rp {
+  color: azure;
+  font-size: large;
+}
+.form {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#form--first {
+  width: 25%;
+  height: 30px;
+}
+#form--second {
+  width: 25%;
+  height: 30px;
+}
+input {
+  width: 150px;
+  border: 2px solid #aeaeb5;
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 2px;
+  margin-top: -10px;
+}
+input:focus {
+  outline: none;
+  border-color: #26bf47;
+  box-shadow: 0 0 10px #26bf47;
+}
+.btn {
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  border-radius: 5px;
+  width: 400px;
+  height: 40px;
+  border-width: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#btn--text{
+  color: azure;
+  font-size: large;
+}
+.button{
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.memeImage{
+  width:300px;
+  height: 300px;
+  
+}
+.imgDiv{
+  margin-left: auto;
+  margin-right: auto;
+}
+.meme {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.meme--image {
+  max-width: 100%;
+  border-radius: 3px;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
